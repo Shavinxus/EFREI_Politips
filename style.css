@@ -1,48 +1,48 @@
 body {
-  background-color: #b9dfcb;
-  font: bold;
-  font-family: Roboto, Oxygen, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #d4e7dd;
+  font-family: Arsenal;
   margin: 0px;
   padding: 0;
 }
 header {
+  font-family: Antonio;
   display: flex;
   flex-flow: row nowrap;
+
   background-color: #cddbff;
+  height: 150px;
+  width: 100%;
 }
 nav {
   display: flex;
-  flex: 1;
-}
-.nav {
-  display: flex;
-  flex: 1;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: left;
   align-content: center;
+  width: 100%;
 }
-ul {
-  list-style-type: none;
+nav a {
+  color: rgb(0, 27, 180);
+  font-size: x-large;
+  margin: 3%;
+  text-decoration: none;
 }
-.nav li {
-  border: 1px solid grey;
-  border-radius: 40px;
-  margin-right: 3%;
-  padding: 1%;
-  background-color: rgb(0, 27, 180);
-  text-align: center;
+nav a:hover {
+  color: rgb(0, 38, 255);
 }
-.nav li:hover {
-  background-color: rgb(0, 33, 221);
-}
+/*.logo {
+  width: 150px;
+  height: 150px;
+}*/
 a {
   color: #f0f8ff;
 }
 .hook {
   text-align: center;
-  text-size-adjust: 100%;
+  font-size: 200%;
 }
 button {
-  size: 40%;
+  font-size: 150%;
+  border: none;
+  background-color: rgb(0, 27, 180);
+  padding: 2%;
 }
