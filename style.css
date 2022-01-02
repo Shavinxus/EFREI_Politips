@@ -61,8 +61,9 @@ main a {
   font-weight: bold;
   font-size: 200%;
   text-decoration: none;
-  color:rgb(64, 143, 71);
-  background-color: #b3c8fd;
+  text-shadow: 2px 2px 2px black;
+  color:rgb(68, 184, 78);
+  background-color: #b7c3e2;
   border: 1px black solid;
   border-radius: 10px;
   padding: 2%;
@@ -73,7 +74,7 @@ main a {
 }
 
 main a:hover{
-  background-color: #c1d2fd;
+  background-color: #e4eafa;
 }
 
 footer {
