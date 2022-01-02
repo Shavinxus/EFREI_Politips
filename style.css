@@ -19,7 +19,7 @@ header {
 
 header div {
   /* margin: 50px 0 50px 30px; */
-  margin: 0;
+  margin-left: 10px;
   position: relative;
   align-self: center;
   /* -ms-transform: translateY(-50%);
@@ -45,7 +45,7 @@ nav a:hover {
   color: rgb(0, 110, 255);
 }
 
-section {
+main {
   position: relative;
   top: 20%;
   text-align: center;
@@ -57,9 +57,11 @@ section {
 
 }
 
-section a {
-  font-size: 150%;
+main a {
+  font-weight: bold;
+  font-size: 200%;
   text-decoration: none;
+  color:rgb(64, 143, 71);
   background-color: #b3c8fd;
   border: 1px black solid;
   border-radius: 10px;
@@ -68,6 +70,10 @@ section a {
   min-width: 200px;
   position: relative;
   left: 35%;
+}
+
+main a:hover{
+  background-color: #c1d2fd;
 }
 
 footer {
