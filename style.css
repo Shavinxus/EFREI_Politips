@@ -9,12 +9,9 @@ header {
   font-family: Antonio;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: left;
+  justify-content: center;
   background-color: #b3c8fd;
-  height: 5%;
-  width: 100%;
-  position: relative;
-  top: 	0;
+  width: 95%;
 }
 
 header div {
