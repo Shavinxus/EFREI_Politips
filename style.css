@@ -63,8 +63,9 @@ main a {
   text-shadow: 2px 2px 2px black;
   color:rgb(68, 184, 78);
   background-color: #b7c3e2;
-  border: 1px black solid;
+  border: 2px black solid;
   border-radius: 10px;
+  box-shadow: 4px 4px 3px rgb(85, 85, 85);
   padding: 2%;
   width: 30%;
   min-width: 200px;
