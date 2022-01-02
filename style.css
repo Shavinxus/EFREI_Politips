@@ -1,23 +1,22 @@
 body {
   background-color: #c2c2c2;
   font-family: Arsenal;
-  margin: 0px;
-  margin-bottom: 50px;
+  margin: 0px 0px 50px 0px;
 }
 
 header {
   font-family: Antonio;
+  border-radius: 50px;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
-  background-color: #b3c8fd;
-  width: 95%;
+  background-color: #a7c0ff;
+  width: 100%;
 }
 
 header div {
   /* margin: 50px 0 50px 30px; */
   margin-left: 10px;
-  position: relative;
+  /* position: relative; */
   align-self: center;
   /* -ms-transform: translateY(-50%);
   transform: translateY(-50%); */
