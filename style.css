@@ -137,6 +137,21 @@ td {
   color:rgb(255, 106, 106);
 }
 
+#questionnaire{
+  margin:50px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+}
+
+#questionnaire p{
+  font-weight: bold;
+}
+
+input{
+  box-shadow: 2px 2px 2px rgb(87, 87, 87);
+  transform: scale(1.2);
+  height:20px;
+  
 #resultat {
   text-align: center;
 }
