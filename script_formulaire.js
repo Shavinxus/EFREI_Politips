@@ -309,19 +309,19 @@ res_51.innerHTML = "Social";
 res_ligne5.append(res_51);
 
 var res_12 = document.createElement("tr");
-res_12.innerHTML = cdt_Array_gen[4][0]+" ("+((cdt_Array_gen[4][1]*100)/18).toFixed(1)+"%)";
+res_12.innerHTML = cdt_Array_gen[4][0]+" ("+((cdt_Array_gen[4][1]*100)/26).toFixed(1)+"%)";
 res_ligne1.append(res_12);
 var res_22 = document.createElement("tr");
-res_22.innerHTML = cdt_Array_gen[3][0]+" ("+((cdt_Array_gen[3][1]*100)/18).toFixed(1)+"%)";
+res_22.innerHTML = cdt_Array_gen[3][0]+" ("+((cdt_Array_gen[3][1]*100)/26).toFixed(1)+"%)";
 res_ligne1.append(res_22);
 var res_32 = document.createElement("tr");
-res_32.innerHTML = cdt_Array_gen[2][0]+" ("+((cdt_Array_gen[2][1]*100)/18).toFixed(1)+"%)";
+res_32.innerHTML = cdt_Array_gen[2][0]+" ("+((cdt_Array_gen[2][1]*100)/26).toFixed(1)+"%)";
 res_ligne1.append(res_32);
 var res_42 = document.createElement("tr");
-res_42.innerHTML = cdt_Array_gen[1][0]+" ("+((cdt_Array_gen[1][1]*100)/18).toFixed(1)+"%)";
+res_42.innerHTML = cdt_Array_gen[1][0]+" ("+((cdt_Array_gen[1][1]*100)/26).toFixed(1)+"%)";
 res_ligne1.append(res_42);
 var res_52 = document.createElement("tr");
-res_52.innerHTML = cdt_Array_gen[0][0]+" ("+((cdt_Array_gen[0][1]*100)/18).toFixed(1)+"%)";
+res_52.innerHTML = cdt_Array_gen[0][0]+" ("+((cdt_Array_gen[0][1]*100)/26).toFixed(1)+"%)";
 res_ligne1.append(res_52);
 
 var res_13 = document.createElement("tr");
