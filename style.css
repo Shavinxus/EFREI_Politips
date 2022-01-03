@@ -94,10 +94,13 @@ footer a {
 }
 
 table {
+  color:rgb(59, 59, 59);
   border-collapse: collapse;
   border: 2px solid rgb(100, 100, 100);
   font-family: sans-serif;
-  font-size: 1em;
+  font-size: .8em;
+  margin:20px 20px 20px 20px;
+  box-shadow: 8px 6px 8px rgb(99, 99, 99);
 }
 
 td, th {
@@ -106,9 +109,50 @@ td, th {
 }
 
 th {
-  background-color: burlywood;
+  background-color: rgb(0, 255, 55);
+  text-shadow: 1px 2px 4px rgb(114, 114, 114);
+}
+
+th:nth-child(1){
+  background-color: rgb(76, 180, 180);
+  width: 30%;
+}
+
+th.vide{
+  background-color:transparent;
 }
 
 td {
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(135, 222, 222);
+  text-shadow: 1px 1px 2px rgb(68, 68, 68);
+}
+
+.pour{
+  color:rgb(40, 189, 77);
+}
+
+.contre{
+  color:rgb(255, 106, 106);
+}
+
+#questionnaire{
+  margin:50px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+}
+
+#questionnaire p{
+  font-weight: bold;
+}
+
+input{
+  box-shadow: 2px 2px 2px rgb(87, 87, 87);
+  transform: scale(1.2);
+  height:20px;
+}
+
+#resultat{
   text-align: center;
 }
