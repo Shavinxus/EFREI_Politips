@@ -149,5 +149,6 @@ td {
 
 input{
   box-shadow: 2px 2px 2px rgb(87, 87, 87);
-
+  transform: scale(1.2);
+  height:20px;
 }
