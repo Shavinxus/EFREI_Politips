@@ -309,6 +309,7 @@ res_51.innerHTML = "Social";
 res_ligne5.append(res_51);
 
 var res_12 = document.createElement("tr");
+
 res_12.innerHTML = cdt_Array_gen[4][0]+" ("+((cdt_Array_gen[4][1]*100)/26).toFixed(1)+"%)";
 res_ligne1.append(res_12);
 var res_22 = document.createElement("tr");
