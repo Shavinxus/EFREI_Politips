@@ -25,7 +25,8 @@
         </nav>
 
     </header>
-    <div id="questionnaire">
+    <div id="page">
+        <div id="questionnaire">
         <form name="Questionnaire">
             <div id="favColor">
                 <p>Le service militaire obligatoire devrait être réinstauré</p>
@@ -117,28 +118,35 @@
                 <input type="radio" name="quest15" id="contre15"> Contre <br>
                 <input type="radio" name="quest15" id="na15"> Pas d'avis <br>
             </div>
-            <div id="favColor">
-                <p>La quantité de soins pris en charge par la sécurité sociale devrait être augmentée</p>
-                <input type="radio" name="quest16" id="pour16"> Pour <br>
-                <input type="radio" name="quest16" id="contre16"> Contre <br>
-                <input type="radio" name="quest16" id="na16"> Pas d'avis <br>
-            </div>
-            <div id="favColor">
-                <p>Les prisons devraient être agrandies</p>
-                <input type="radio" name="quest17" id="pour17"> Pour <br>
-                <input type="radio" name="quest17" id="contre17"> Contre <br>
-                <input type="radio" name="quest17" id="na17"> Pas d'avis <br>
-            </div>
-            <div id="favColor">
-                <p>La France devrait diminuer ses aides sociales</p>
-                <input type="radio" name="quest18" id="pour18"> Pour <br>
-                <input type="radio" name="quest18" id="contre18"> Contre <br>
-                <input type="radio" name="quest18" id="na18"> Pas d'avis <br>
-            </div>
+                <div id="favColor">
+                    <p>La quantité de soins pris en charge par la sécurité sociale devrait être augmentée</p>
+                    <input type="radio" name="quest16" id="pour16"> Pour <br>
+                    <input type="radio" name="quest16" id="contre16"> Contre <br>
+                    <input type="radio" name="quest16" id="na16"> Pas d'avis <br>
+                </div>
+                <div id="favColor">
+                    <p>Les prisons devraient être agrandies</p>
+                    <input type="radio" name="quest17" id="pour17"> Pour <br>
+                    <input type="radio" name="quest17" id="contre17"> Contre <br>
+                    <input type="radio" name="quest17" id="na17"> Pas d'avis <br>
+                </div>
+                <div id="favColor">
+                    <p>La France devrait diminuer ses aides sociales</p>
+                    <input type="radio" name="quest18" id="pour18"> Pour <br>
+                    <input type="radio" name="quest18" id="contre18"> Contre <br>
+                    <input type="radio" name="quest18" id="na18"> Pas d'avis <br>
+                </div>
 
-            <input type="button" id="valider" id="submit" onclick="submitQuestionnaire()">
-        </form>
+                <hr size="2px" width="90%" color="#c2c2c2">
+
+                <input type="button" id="valider" id="submit" onclick="submitQuestionnaire()">
+            </form>
+        </div>
+
+        <div id="resultat">
+        </div>
     </div>
+
     <footer>
         <a href="index.html">Accueil</a>
         <a href="formulaire.html">Questionnaire de positionement</a>

@@ -136,3 +136,7 @@ td {
 .contre{
   color:rgb(255, 106, 106);
 }
+
+#resultat {
+  text-align: center;
+}
